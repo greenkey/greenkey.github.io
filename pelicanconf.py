@@ -5,10 +5,11 @@ from __future__ import unicode_literals
 AUTHOR = 'greenkey'
 SITENAME = 'loman.it'
 SITESUBTITLE = 'home of Lorenzo Mele'
-SITEURL = ''
+SITEURL = '/'
 
 PATH = 'content'
 THEME = 'theme/Flex'
+INDEX_SAVE_AS = 'articles.html'
 
 TIMEZONE = 'Europe/Rome'
 
@@ -35,4 +36,4 @@ SOCIAL = (
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
