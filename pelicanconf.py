@@ -25,6 +25,7 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 PAGES_SORT_ATTRIBUTE = 'sortorder'
 SHOW_ARCHIVES = False
+DIRECT_TEMPLATES = []
 
 # Social widget
 SOCIAL_WIDGET_NAME = 'Find me here'
