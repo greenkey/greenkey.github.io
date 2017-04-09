@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = 'greenkey'
+AUTHOR = 'Lorenzo Mele'
 SITENAME = 'loman.it'
 SITESUBTITLE = 'home of Lorenzo Mele'
 SITELOGO = 'https://pbs.twimg.com/profile_images/664404104836489216/6bN2VkLF_400x400.jpg'
