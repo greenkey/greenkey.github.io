@@ -31,6 +31,7 @@ SOCIAL_WIDGET_NAME = 'Find me here'
 SOCIAL = (
 	('twitter', 'http://twitter.com/greenkey'),
 	('linkedin', 'http://linkedin.com/in/lorenzomele'),
+	('github', 'http://github.com/greenkey'),
 )
 
 DEFAULT_PAGINATION = 10
