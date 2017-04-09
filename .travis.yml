@@ -1,4 +1,9 @@
 language: python
+addons:
+  apt:
+    packages:
+    - lftp
+os: linux
 install: "pip install -r requirements.txt"
 script: make html
 after_success:
