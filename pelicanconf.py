@@ -5,11 +5,10 @@ from __future__ import unicode_literals
 AUTHOR = 'greenkey'
 SITENAME = 'loman.it'
 SITESUBTITLE = 'home of Lorenzo Mele'
-SITEURL = '/'
+SITELOGO = 'https://pbs.twimg.com/profile_images/664404104836489216/6bN2VkLF_400x400.jpg'
 
 PATH = 'content'
 THEME = 'theme/Flex'
-INDEX_SAVE_AS = 'articles.html'
 
 TIMEZONE = 'Europe/Rome'
 
@@ -26,6 +25,11 @@ AUTHOR_FEED_RSS = None
 PAGES_SORT_ATTRIBUTE = 'sortorder'
 SHOW_ARCHIVES = False
 DIRECT_TEMPLATES = []
+CUSTOM_CSS = 'static/loman.css'
+STATIC_PATHS = [CUSTOM_CSS]
+EXTRA_PATH_METADATA = {
+    CUSTOM_CSS: {'path': CUSTOM_CSS}
+}
 
 # Social widget
 SOCIAL_WIDGET_NAME = 'Find me here'
@@ -33,6 +37,7 @@ SOCIAL = (
 	('twitter', 'http://twitter.com/greenkey'),
 	('linkedin', 'http://linkedin.com/in/lorenzomele'),
 	('github', 'http://github.com/greenkey'),
+	('devto', 'https://dev.to/greenkey'),
 )
 
 DEFAULT_PAGINATION = 10
