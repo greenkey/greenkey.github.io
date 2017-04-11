@@ -5,4 +5,4 @@ Status: hidden
 
 Hello Internet!
 
-This is a little website about me, [Lorenzo Mele](me), aka greenkey.
+This is a little website about me, [Lorenzo Mele](/pages/me), aka greenkey.
