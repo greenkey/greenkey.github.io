@@ -1,7 +1,6 @@
-Title: loman.it
-Slug: index
-save_as: index2.html
-Status: hidden
+Title: first post
+Slug: first
+Date: 2017-03-01
 
 Hello Internet!
 
