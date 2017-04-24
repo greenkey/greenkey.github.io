@@ -1,0 +1,13 @@
+diff --git a/theme/Flex/templates/base.html b/theme/Flex/templates/base.html
+index 8f79b77..694dfbe 100644
+--- a/theme/Flex/templates/base.html
++++ b/theme/Flex/templates/base.html
+@@ -102,7 +102,7 @@
+           {% endfor %}
+ 
+           {% for name, link in LINKS %}
+-          <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
++          <li><a href="{{ link }}">{{ name }}</a></li>
+           {% endfor %}
+         </ul>
+       </nav>

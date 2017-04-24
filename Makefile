@@ -44,7 +44,8 @@ help:
 
 init:
 	pip install -r requirements.txt
-	git submodule update --init --recursive
+	git submodule update --init --recursive -f
+	git apply `find -name '*.patch'`
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)

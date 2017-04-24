@@ -20,7 +20,7 @@ DEFAULT_CATEGORY = 'blog'
 
 # theme, templates, style
 THEME = 'theme/Flex'
-DIRECT_TEMPLATES = ['index', 'tags', 'archives', 'billo']
+DIRECT_TEMPLATES = ['index', 'tags', 'archives']
 EXTRA_TEMPLATES_PATHS = ['theme']
 CUSTOM_CSS = 'static/loman.css'
 STATIC_PATHS = [CUSTOM_CSS]
@@ -38,6 +38,10 @@ AUTHOR_FEED_RSS = None
 # Blogroll
 PAGES_SORT_ATTRIBUTE = 'sortorder'
 SHOW_ARCHIVES = True
+LINKS = (
+    ('blog tags', '/tags'),
+    ('archive', '/archives'),
+)
 
 # Social widget
 SOCIAL_WIDGET_NAME = 'Find me here'
