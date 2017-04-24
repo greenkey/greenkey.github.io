@@ -39,8 +39,8 @@ AUTHOR_FEED_RSS = None
 PAGES_SORT_ATTRIBUTE = 'sortorder'
 SHOW_ARCHIVES = True
 LINKS = (
-    ('blog tags', '/tags'),
-    ('archive', '/archives'),
+    ('blog tags', '/tags.html'),
+    ('archive', '/archives.html'),
 )
 
 # Social widget
