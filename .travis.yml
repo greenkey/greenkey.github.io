@@ -4,7 +4,6 @@ addons:
     packages:
     - lftp
 os: linux
-install: "pip install -r requirements.txt"
+install: make init
 script: make html
-after_success:
-    "make ftp_upload"
+after_success: make ftp_upload
